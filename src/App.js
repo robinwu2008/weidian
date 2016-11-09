@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Navbar, Jumbotron, Button } from 'react-bootstrap';
-import Top from './Top';
+
 
 class App extends Component {
   render() {
