@@ -1,25 +1,22 @@
 import React, { Component } from 'react';
-import { Grid, Navbar, Jumbotron, Button } from 'react-bootstrap';
-
-
+import { Grid, Navbar, Jumbotron, Button,ButtonToolbar } from 'react-bootstrap';
+  import Top from './Top';
+  import Form from './Form';
 class App extends Component {
   render() {
     return (  
       <div> 
+      <Top/>
         <Jumbotron>
           <Grid>
             <h1>维维</h1>
             <p>
-              <Button
-                bsStyle="success"
-                bsSize="large"
-                href="http://react-bootstrap.github.io/components.html"
-                target="_blank">
-                我就是按钮啦
-              </Button>
+              <Form/> 
             </p>
           </Grid>
         </Jumbotron>
+ 
+
       </div>
     );
   }

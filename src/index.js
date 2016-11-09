@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import App from './App';
-  import Top from './Top';
+import App from './App';
+
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
@@ -10,6 +10,6 @@ import 'bootstrap/dist/css/bootstrap-theme.css';
 //   document.getElementById('root')
 // );
 
- 
 
-ReactDOM.render(<Top/> ,  document.getElementById('root'));
+
+ReactDOM.render( < FormExample / > , document.getElementById('root'));
